@@ -39,6 +39,7 @@ buttonEl.addEventListener("click", function () {
   if (
     inputEl.value == "" ||
     parseInt(inputEl.value) > 5 ||
+    parseInt(inputEl.value) < 1 ||
     isNaN(inputEl.value) ||
     (!document.getElementById("even").checked &&
       !document.getElementById("odd").checked)
