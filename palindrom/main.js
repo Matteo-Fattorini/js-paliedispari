@@ -28,6 +28,20 @@ function isPalindrom(string) {
   }
 }
 
+//!modalità alternativa
+// function reverse(str) {
+//   var newstring = "";
+
+//   for (var i = str.length - 1; i >= 0; i--) {
+//     if (str[i] == " ") {
+//       continue;
+//     } else {
+//       newstring += str[i];
+//     }
+//   }
+//   return newstring;
+// }
+
 // !raccolta input
 
 // elementi
