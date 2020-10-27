@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pari o Dispari</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box box-1">
+        <h1>Inserisci un numero da 1 a 5 e scegli pari o dispari</h1>
+        <div class="input-wrapper">
+          <input id="input" type="text" />
+          <button id="button">Invia</button>
+
+          <input type="radio" id="even" name="oddOrEven" value="even" />
+          <label for="even">Pari</label><br />
+
+          <input type="radio" id="odd" name="oddOrEven" value="odd" />
+          <label for="odd">Dispari</label><br />
+        </div>
+      </div>
+      <div class="box box-2">
+        <h1 id="result"></h1>
+        <h2 id="winner"></h2>
+      </div>
+    </div>
+  </body>
+</html>
