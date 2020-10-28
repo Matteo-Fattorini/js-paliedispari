@@ -22,10 +22,8 @@ function isPalindrom(string) {
   }
   if (string.toLowerCase() == reverseString(string).toLowerCase()) {
     arePalindromes = true;
-    return arePalindromes;
-  } else {
-    return arePalindromes;
   }
+  return arePalindromes;
 }
 
 //!modalità alternativa

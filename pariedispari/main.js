@@ -54,7 +54,7 @@ buttonEl.addEventListener("click", function () {
       evenToggle = true;
     }
 
-    randomNumComputer = randomNum(1, 5);
+    randomNumComputer = randomNum(0, 5);
     summed = parseInt(randomNumComputer) + parseInt(inputEl.value);
 
     if (isEven(summed)) {
